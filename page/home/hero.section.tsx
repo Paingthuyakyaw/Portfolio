@@ -12,14 +12,15 @@ const HeroSection = () => {
                 Paing Thura Kyaw
               </h2>
               <p className="text-4xl 2xl:text-5xl text-foreground font-bold">
-                A Frontend Developer
+                A FullStack Developer
               </p>
               <p className=" 2xl:text-xl">
-                I'm a passionate and creative Frontend Developer based in
+                I'm a passionate and creative FullStack Developer based in
                 Myanmar with a strong background in web technologies such as
-                HTML, CSS, and JavaScript, I specialize in creating visually
-                appealing and user-friendly websites and applications. I’m
-                proficient in modern frameworks like React and Next js.
+                HTML, CSS, and JavaScript, Java I specialize in creating
+                visually appealing and user-friendly websites and applications.
+                I’m proficient in modern frameworks like React and Next js and
+                Spring and Spring boot.
               </p>
             </div>
           </div>

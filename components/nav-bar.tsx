@@ -1,6 +1,9 @@
+"use client";
+import { useTheme } from "next-themes";
 import Link from "next/link";
 
 const NavBar = () => {
+  const { theme, setTheme } = useTheme();
   return (
     <div className=" border-b">
       <div className=" py-4 container mx-auto ">
@@ -28,6 +31,15 @@ const NavBar = () => {
             >
               Contact
             </Link>
+
+            <div className="">
+              <button
+                onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+                className="p-2 border rounded"
+              >
+                {theme === "light" ? "🌞 Light" : "🌚 Dark"}
+              </button>
+            </div>
           </div>
         </div>
       </div>
